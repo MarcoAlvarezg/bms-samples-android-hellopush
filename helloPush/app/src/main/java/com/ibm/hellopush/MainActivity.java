@@ -35,7 +35,6 @@ import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushResponseLis
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushNotificationListener;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPSimplePushNotification;
 import com.ibm.mobilefirstplatform.clientsdk.android.security.api.AuthorizationManager;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -62,7 +61,7 @@ public class MainActivity extends Activity {
         // Initialize Push client
         // You can find your App Guid and Client Secret by navigating to the Configure section of your Push dashboard, click Mobile Options (Upper Right Hand Corner)
         // TODO: Please replace <APP_GUID> and <CLIENT_SECRET> with a valid App GUID and Client Secret from the Push dashboard Mobile Options
-        push.initialize(this, "<APP_GUID>", "<CLIENT_SECRET>");
+        push.initialize(this, "4fbd7e34-e3e6-490d-9b2f-95623434c915", "11d2e8ab-7ca5-4d7d-bb0b-91f2a8be6f80");
 
 
         //TODO: Actionable Notifications
